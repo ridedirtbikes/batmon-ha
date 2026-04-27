@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/home-assistant/amd64-base:latest
+ARG BUILD_FROM=ghcr.io/home-assistant/home-assistant:stable
 FROM $BUILD_FROM
 
 WORKDIR /app
